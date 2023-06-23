@@ -1,0 +1,9 @@
+@layer utilities {
+  .flex_2 {
+    flex: 2
+    }
+
+  .flex_1 {
+    flex: 1 1 0%
+    }
+}

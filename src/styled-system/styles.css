@@ -1,0 +1,19 @@
+@layer reset, base, tokens, recipes, utilities;
+
+@import './global.css';
+
+@import './reset.css';
+
+@import './tokens/index.css';
+
+@import './tokens/keyframes.css';
+
+@layer utilities {
+  .flex_2 {
+    flex: 2
+    }
+
+  .flex_1 {
+    flex: 1 1 0%
+    }
+}
